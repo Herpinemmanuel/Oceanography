@@ -34,3 +34,42 @@ Average_Vwind_mask = ds0.CH_Vwind.where(ds0.hFacS>0).mean().values
 print('Case 4 : Average of Atmospheric Meridional component without continents')
 print(Average_Vwind_mask,'m/s')
 
+# Specific Humidity
+
+Average_CH_QAIR = ds0.CH_QAIR.mean().values
+print('Average of Specific Humidity')
+print(Average_CH_QAIR, 'kg_WATER/kg_DRYAIR')
+
+Average_CH_QAIR_mask = ds0.CH_QAIR.where(ds0.hFacC>0).mean().values
+print('Average of Specific Humidity without continents')
+print(Average_CH_QAIR_mask, 'kg_EAU/kg_AIRSEC')
+
+# Surface Heating
+
+Average_CH_QNET = ds0.CH_QNET.mean().values
+print('Average of Surface Heating')
+print(Average_CH_QNET, 'W/m²')
+
+Average_CH_QNET_mask = ds0.CH_QNET.where(ds0.hFacC>0).mean().values
+print('Average of Surface Heating without continents')
+print(Average_CH_QNET_mask, 'W/m²')
+
+# Latent Heat
+
+Average_CH_LH = ds0.CH_LH.mean().values
+print('Average of Latent Heat ')
+print(Average_CH_LH, 'W/m²')
+
+Average_CH_LH_mask = ds0.CH_LH.where(ds0.hFacC>0).mean().values
+print('Average of Latent Heat without continents')
+print(Average_CH_LH_mask, 'W/m²')
+
+# Sensible Heat
+
+Average_CH_SH = ds0.CH_SH.mean().values
+print('Average of Sensible Heat')
+print(Average_CH_SH,'W/m²')
+
+Average_CH_SH_mask = ds0.CH_SH.where(ds0.hFacC>0).mean().values
+print('Average of Sensible Heat without continents')
+print(Average_CH_LH_mask,'W/m²')
