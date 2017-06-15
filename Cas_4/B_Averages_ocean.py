@@ -50,6 +50,6 @@ print(Average_V_mask,'m/s')
 Average_W = ds0['W'].mean().values
 print('Average of Vertical component of Ocean Velocity')
 print(Average_W,'m/s')
-Average_W_mask = ds0.W.where(ds0.hFacS>0).mean().values
-print('Average of Vertical component of Ocean Velocity without continents')
-print(Average_W_mask,'m/s')
+#Average_W_mask = ds0.W.where(ds0.hFacS>0).mean().values
+#print('Average of Vertical component of Ocean Velocity without continents')
+#print(Average_W_mask,'m/s')
