@@ -22,7 +22,7 @@ print(ny)  #100
 plt.figure(1)
 ax = plt.subplot(projection=ccrs.PlateCarree());
 ds1['S'].where(ds1.hFacC>0)[nt,:,:,100].plot.pcolormesh('XC','YC',ax=ax)
-plt.title('Case 4 : Salinity (t=-1 ; x=30S)')
+plt.title('Case 4 : Salinity (t = -1 ; YC = 30°S)')
 ax.coastlines()
 gl = ax.gridlines(draw_labels=True, alpha = 0.5, linestyle='--');
 gl.xlabels_top = False
@@ -35,7 +35,7 @@ plt.clf()
 plt.figure(2)
 ax = plt.subplot(projection=ccrs.PlateCarree());
 ds1['S'].where(ds1.hFacC>0)[nt,:,280,:].plot.pcolormesh('XC','YC',ax=ax)
-plt.title('Case 4 : Salinity (t=-1 ; y=0E)')
+plt.title('Case 4 : Salinity (t = -1 ; XC = 0°E)')
 ax.coastlines()
 gl = ax.gridlines(draw_labels=True, alpha = 0.5, linestyle='--');
 gl.xlabels_top = False
