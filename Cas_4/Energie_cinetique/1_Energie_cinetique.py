@@ -29,7 +29,7 @@ while (i < 150):
     print(i)
     plt.figure(1)
     ax = plt.subplot(projection=ccrs.PlateCarree());
-    Energie_cinetique[i,nz,:,:].plot.pcolormesh('XC', 'YC', ax=ax,vmin=0,norm=colors.PowerNorm(gamma=1./2.),vmax=10,cmap='ocean');
+    Kinetic_energy[i,nz,:,:].plot.pcolormesh('XC', 'YC', ax=ax,vmin=0,norm=colors.PowerNorm(gamma=1./2.),vmax=10,cmap='ocean');
     plt.title('Kinetic Energy m²/s²')
     plt.text(5,5,i,ha='center',wrap=True)
     ax.coastlines()
