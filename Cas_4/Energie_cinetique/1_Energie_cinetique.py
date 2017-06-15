@@ -15,12 +15,11 @@ ds0 = open_mdsdataset(dir0,iters='all',prefix=['U','V'])
 grid = xgcm.Grid(ds0)
 print(grid)
 
-Energie_cinetique_X = grid.interp((ds0.U.where(ds0.hFacW>0)*ds0.hFacW)**2, 'X') 
-Energie_cinetique_Y = grid.interp((ds0.V.where(ds0.hFacS>0)*ds0.hFacS)**2, 'Y')
-Energie_cinetique = Energie_cinetique_X + Energie_cinetique_Y
-print('Energie_cinetique')
-print(Energie_cinetique)
-
+Kinetic_energy_X = grid.interp((ds0.U.where(ds0.hFacW>0)*ds0.hFacW)**2, 'X') 
+Kinetic_energy_Y = grid.interp((ds0.V.where(ds0.hFacS>0)*ds0.hFacS)**2, 'Y')
+Kinetic_energy = Kinetic_energy_X + Kinetic_energy_Y
+print('Kinetic_energy')
+print(Kinetic_energy)
 
 i = 0
 nz = 0
