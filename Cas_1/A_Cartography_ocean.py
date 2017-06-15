@@ -9,9 +9,10 @@ plt.ion() #or plt.show() at the end of script                             #Inter
 
 dir0 = '/homedata/bderembl/runmit/test_southatlgyre'                      #Path to directory
 
-ds0 = open_mdsdataset(dir0,prefix=['U','V','W','T','S','Eta'])            #Case 1 : 38 iterations
+ds0 = open_mdsdataset(dir0,prefix=['U','V','W','T','S','Eta'])            #Case 1 : 38 iterations 
 
-print(ds0)                                                                 #Whrite ds0 object
+
+print(ds0)                                                                #Whrite ds0 object
 
 nt1 = 0                                                                   #First iteration
 nt2 = -1                                                                  #Last iteration
@@ -28,7 +29,7 @@ gl.xlabels_top = False
 gl.ylabels_right = False
 gl.xformatter = LONGITUDE_FORMATTER
 gl.yformatter = LATITUDE_FORMATTER
-plt.savefig('Cartography_ETA'+'.png')                                    #Save figure
+plt.savefig('Cartography_ETA_cas1'+'.png')                               #Save figure
 plt.clf()                                                                #Clear figure
 
 #T : Temperature
@@ -42,7 +43,7 @@ gl.xlabels_top = False
 gl.ylabels_right = False
 gl.xformatter = LONGITUDE_FORMATTER
 gl.yformatter = LATITUDE_FORMATTER
-plt.savefig('Cartography_T'+'.png')
+plt.savefig('Cartography_T_cas1'+'.png')
 plt.clf()
 
 #S : Salinity
@@ -56,7 +57,7 @@ gl.xlabels_top = False
 gl.ylabels_right = False
 gl.xformatter = LONGITUDE_FORMATTER
 gl.yformatter = LATITUDE_FORMATTER
-plt.savefig('Cartography_S'+'.png')
+plt.savefig('Cartography_S_cas1'+'.png')
 plt.clf()
 
 #U : Meridional component of Sea water Velocity
@@ -70,7 +71,7 @@ gl.xlabels_top = False
 gl.ylabels_right = False
 gl.xformatter = LONGITUDE_FORMATTER
 gl.yformatter = LATITUDE_FORMATTER
-plt.savefig('Cartography_U'+'.png')
+plt.savefig('Cartography_U_cas1'+'.png')
 plt.clf()
 
 #V : Zonal component of Sea water Velocity
@@ -84,7 +85,7 @@ gl.xlabels_top = False
 gl.ylabels_right = False
 gl.xformatter = LONGITUDE_FORMATTER
 gl.yformatter = LATITUDE_FORMATTER
-plt.savefig('Cartography_V'+'.png')
+plt.savefig('Cartography_V_cas1'+'.png')
 plt.clf()
 
 #W : Vertical component of Sea water Velocity
@@ -98,5 +99,5 @@ gl.xlabels_top = False
 gl.ylabels_right = False
 gl.xformatter = LONGITUDE_FORMATTER
 gl.yformatter = LATITUDE_FORMATTER
-plt.savefig('Cartography_W'+'.png')
+plt.savefig('Cartography_W_cas1'+'.png')
 plt.clf()
