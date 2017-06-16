@@ -46,13 +46,13 @@ plt.clf()
 Average_U = ds1['U'].mean().values
 print('Case 1 : Average of Zonal Component - U')
 print(Average_U,'m/s')
-Average_U_mask = ds1['U'].where(ds1.hFacW>0).mean().values
+Average_U_mask = ds1.U.where(ds1.hFacW>0).mean().values
 print('Case 1 : Average of Zonal Component without continents')
 print(Average_U_mask,'m/s')
 
 Average_V = ds1['V'].mean().values
 print('Case 1 :Average of Meridional Component - V')
 print(Average_V,'m/s')
-Average_V_mask = ds1['V'].where(ds1.hFacS>0).mean().values
+Average_V_mask = ds1.V.where(ds1.hFacS>0).mean().values
 print('Case 1 : Average of Meridional Component without continents')
 print(Average_V_mask,'m/s')
