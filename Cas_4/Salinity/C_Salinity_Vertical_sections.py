@@ -1,9 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt 
-import cartopy.crs as ccrs 
 
 from xmitgcm import open_mdsdataset 
-from cartopy.mpl.gridliner import LONGITUDE_FORMATTER, LATITUDE_FORMATTER
 plt.ion()
 
 dir1 = '/homedata/bderembl/runmit/test_southatlgyre3'
