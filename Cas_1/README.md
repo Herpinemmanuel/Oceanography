@@ -1,1 +1,3 @@
-# Case 1 : 38 Iterations 
+# Case 1 : First Run
+
+With 37 iterations
