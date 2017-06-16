@@ -21,12 +21,12 @@ nt = -1        #Last Iteration
 # Vertical Section of Salinity
 plt.figure(1)
 ds1['S'].where(ds1.hFacC>0)[nt,:,100,:].plot()
-plt.title('Case 4 : Salinity (t=-1 ; YC = 30S)')
+plt.title('Case 1 : Salinity (t=-1 ; YC = 30S)')
 plt.savefig('S_Salinity_Vertical_section_xz_cas1'+'.png')
 plt.clf()
 
 plt.figure(2)
 ds1['S'].where(ds1.hFacC>0)[nt,:,:,280].plot()
-plt.title('Case 4 : Salinity (t=-1 ; XC = 0E)')
+plt.title('Case 1 : Salinity (t=-1 ; XC = 0E)')
 plt.savefig('S_Salinity_Vertical_section_yz_cas1'+'.png')
 plt.clf()
