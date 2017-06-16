@@ -27,12 +27,3 @@ gl.xformatter = LONGITUDE_FORMATTER
 gl.yformatter = LATITUDE_FORMATTER
 plt.savefig('T_Temperature_cas1'+'.png')
 plt.clf()
-
-# Averages
-
-Average_T = ds1['T'].mean().values
-print('Average of Temperature')
-print(Average_T,'°C')
-#Average_T_mask = ds1['T'].where(ds1.hFacC>0).mean().values
-#print('Average of Temperature without continents')
-#print(Average_T_mask,'°C')
