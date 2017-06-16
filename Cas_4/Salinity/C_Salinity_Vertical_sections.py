@@ -22,11 +22,11 @@ nt = -1
 plt.figure(1)
 ds1['S'].where(ds1.hFacC>0)[nt,:,100,:].plot()
 plt.title('Case 4 : Salinity (t=-1 ; YC = 30S)')
-plt.savefig('S_Salinity_Vertical_section(x,z)_cas4'+'.png')
+plt.savefig('S_Salinity_Vertical_section_xz_cas4'+'.png')
 plt.clf()
 
 plt.figure(2)
 ds1['S'].where(ds1.hFacC>0)[nt,:,:,280].plot()
 plt.title('Case 4 : Salinity (t=-1 ; XC = 0E)')
-plt.savefig('S_Salinity_Vertical_section(y,z)_cas4'+'.png')
+plt.savefig('S_Salinity_Vertical_section_yz_cas4'+'.png')
 plt.clf()
