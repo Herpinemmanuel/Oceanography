@@ -18,7 +18,7 @@ while (nt < 1000) :
     print(nt)
     plt.figure(1)
     ax = plt.subplot(projection=ccrs.PlateCarree());
-    ds0['Eta'][nt,nz,:,:].plot.pcolormesh('XC', 'YC',ax=ax,vmin=-10,vmax=35,cmap='ocean')
+    ds0['Eta'][nt,nz,:,:].plot.pcolormesh('XC', 'YC',ax=ax,vmin=-5,vmax=5,cmap='ocean')
     plt.title('Case 4 : Surface Height Anomaly ')
     plt.text(5,5,nt,ha='center',wrap=True)
     ax.coastlines()
