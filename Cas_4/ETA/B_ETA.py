@@ -12,13 +12,13 @@ dir0 = '/homedata/bderembl/runmit/test_southatlgyre3'
 ds0 = open_mdsdataset(dir0,prefix=['Eta'])
 
 nt = 0
-nz = 0
+
 while (nt < 1000) :
     nt = nt+1
     print(nt)
     plt.figure(1)
     ax = plt.subplot(projection=ccrs.PlateCarree());
-    ds0['Eta'][nt,nz,:,:].plot.pcolormesh('XC', 'YC',ax=ax,vmin=-5,vmax=5,cmap='ocean')
+    ds0['Eta'][nt,:,:].plot.pcolormesh('XC', 'YC',ax=ax,vmin=-5,vmax=5,cmap='ocean')
     plt.title('Case 4 : Surface Height Anomaly ')
     plt.text(5,5,nt,ha='center',wrap=True)
     ax.coastlines()
