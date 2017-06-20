@@ -2,7 +2,7 @@ import numpy as np
 
 from xmitgcm import open_mdsdataset 
 
-dir0 = '/homedata/bderembl/runmit/test_southatlgyre3'
+dir0 = '/homedata/bderembl/runmit/test_southatlgyre'
 i = 0
 
 while (i < 423360):
