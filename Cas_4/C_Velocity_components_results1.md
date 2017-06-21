@@ -1,7 +1,7 @@
 #Cartography
 
-![alt tab](https://user-images.githubusercontent.com/26437161/27175438-83bf03e2-51bf-11e7-813e-b6500219872a.png)
-![alt tab](https://user-images.githubusercontent.com/26437161/27175437-83be5a96-51bf-11e7-8931-2c86821c4574.png)
+![alt tab](https://user-images.githubusercontent.com/26437161/27387367-d6148292-5698-11e7-8476-642fcaabf63b.png)
+![alt tab](https://user-images.githubusercontent.com/26437161/27387368-d61bd6a0-5698-11e7-871a-08d2a27681a9.png)
 
 #Averages 
 
