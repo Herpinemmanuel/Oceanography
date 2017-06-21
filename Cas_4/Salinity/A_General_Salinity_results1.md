@@ -9,4 +9,4 @@ Average of Salinity without continents:
 
 # Cartography of Salinity
 
-![alt tab](https://user-images.githubusercontent.com/26437161/27180700-f2db53b0-51d4-11e7-813b-8bc0c6d18d47.png)
+![alt tab](https://user-images.githubusercontent.com/26437161/27387713-c313abf4-5699-11e7-95cd-e91adb297a49.png)
