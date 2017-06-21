@@ -18,7 +18,7 @@ nz = 0
 plt.figure(1)
 ax = plt.subplot(projection=ccrs.PlateCarree());
 ds1['U'][nt,nz,:,:].plot.pcolormesh('XG', 'YC', ax=ax);
-plt.title('Case 4 : Zonal Component - U')
+plt.title('Case 4 : Zonal Component - U (t=-1 , z=0)')
 ax.coastlines()
 gl = ax.gridlines(draw_labels=True, alpha = 0.5, linestyle='--');
 gl.xlabels_top = False
@@ -31,7 +31,7 @@ plt.clf()
 plt.figure(2)
 ax = plt.subplot(projection=ccrs.PlateCarree());
 ds1['V'][nt,nz,:,:].plot.pcolormesh('XC', 'YG', ax=ax);
-plt.title(' Case 4 : Meridional Component - V')
+plt.title(' Case 4 : Meridional Component - V (t=-1 , z=0)')
 ax.coastlines()
 gl = ax.gridlines(draw_labels=True, alpha = 0.5, linestyle='--');
 gl.xlabels_top = False
