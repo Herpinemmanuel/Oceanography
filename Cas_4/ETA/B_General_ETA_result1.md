@@ -1,10 +1,11 @@
 
 
 #Averages
+Average of Surface Height Anomaly :
+0.033872686326503754 m
 
-Average of Surface Height Anomaly 0.034467026591300964 m
-
-Average of Surface Height Anomaly without continents 0.049433398991823196 m
+Average of Surface Height Anomaly without continents :
+0.04750201478600502 m
 
 #Cartography
 
