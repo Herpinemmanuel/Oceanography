@@ -1,0 +1,27 @@
+# F90NML : Module python pour lire, écrire et manipuler les fichiers fortran
+-> Installation : 
+git clone https://github.com/marshallward/f90nml.git
+cd f90nml
+python setup.py install
+-> Documentation :
+f90nml.readthedocs.io/en/latest/#installation
+
+# DASK : Librairie parallèle flexible pour l'informatique analytique
+-> Installation :
+conda install xarray
+-> Documentation :
+dask.pydata.org/en/latest
+
+# XARRAY : Module Python permettant d'analyser des tableaux à N dimensions
+-> Installation :
+conda install xarray
+-> Documentation :
+xarray.pydata.org/en/stable
+
+# XGCM : Module Python permettant d'analyser les modèles de circulations généraux
+-> Installation :
+git clone https://github.com/xgcm/xgcm.git
+cd xgcm
+python setup.py install
+-> Documentation :
+https://github.com/xgcm/xgcm/blob/master/doc/installation.rst
