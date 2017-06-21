@@ -34,7 +34,7 @@ plt.clf()                                                                #Clear 
 #T : Temperature
 plt.figure(2)
 ax = plt.subplot(projection=ccrs.PlateCarree());
-ds0['T'].where(ds0.hFacC>0)[nt1,nz,:,:].plot.pcolormesh('XC', 'YC', ax=ax);
+ds0['T'].where(ds0.hFacC>0)[nt1,nz,:,:].plot.pcolormesh('XC', 'YC', ax=ax,vmin=0,vmax=30);
 plt.title('T : Temperature (t=0 ; z=0)')
 ax.coastlines()
 gl = ax.gridlines(draw_labels=True, alpha = 0.5, linestyle='--');
@@ -48,7 +48,7 @@ plt.clf()
 #S : Salinity
 plt.figure(3)
 ax = plt.subplot(projection=ccrs.PlateCarree());
-ds0['S'][nt1,nz,:,:].plot.pcolormesh('XC', 'YC', ax=ax);
+ds0['S'][nt1,nz,:,:].plot.pcolormesh('XC', 'YC', ax=ax,vmin=33,vmax=38);
 plt.title('S : Salinity (t=0 ; z=0)')
 ax.coastlines()
 gl = ax.gridlines(draw_labels=True, alpha = 0.5, linestyle='--');
