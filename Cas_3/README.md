@@ -1,3 +1,3 @@
 # Case 3 : 
 
-Case without any atmospheric conditions
+Case without any atmospheric interactions
