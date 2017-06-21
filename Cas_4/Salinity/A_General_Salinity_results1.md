@@ -1,9 +1,11 @@
 # Averages
-Average of Salinity
-24.590808868408203 psu
 
-Average of Salinity without continents
-34.879268646240234 psu
+Average of Salinity:
+24.602941513061523 psu
+
+Average of Salinity without continents:
+34.896484375 psu
+
 
 # Cartography of Salinity
 
