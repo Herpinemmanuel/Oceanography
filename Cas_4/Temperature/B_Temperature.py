@@ -18,7 +18,7 @@ while (nt < 150) :
     print(nt)
     plt.figure(1)
     ax = plt.subplot(projection=ccrs.PlateCarree());
-    ds0['T'][nt,nz,:,:].plot.pcolormesh('XC', 'YC',ax=ax,vmin=-10,vmax=35,cmap='ocean')
+    ds0['T'][nt,nz,:,:].plot.pcolormesh('XC', 'YC',ax=ax,vmin=0,vmax=35,cmap='ocean')
     plt.title('Case 4 : Temperature ')
     plt.text(5,5,nt,ha='center',wrap=True)
     ax.coastlines()
