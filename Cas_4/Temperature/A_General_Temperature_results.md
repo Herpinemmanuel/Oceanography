@@ -7,4 +7,4 @@ Average of Temperature without continents
 
 # Cartography
 
-![alt tab](https://user-images.githubusercontent.com/26437161/27181578-71a933b2-51d8-11e7-9c7a-1209235a4b43.png)
+![alt tab](https://user-images.githubusercontent.com/26437161/27387630-8626d63a-5699-11e7-9154-7a9f743bb53a.png)
