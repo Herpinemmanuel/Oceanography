@@ -13,7 +13,7 @@ ds0 = open_mdsdataset(dir0,prefix=['T'])
 
 nt = 0
 nz = 0
-while (nt < 150) :
+while (nt < 1000) :
     nt = nt+1
     print(nt)
     plt.figure(1)
