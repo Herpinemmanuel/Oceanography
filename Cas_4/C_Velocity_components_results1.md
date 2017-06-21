@@ -5,14 +5,15 @@
 
 #Averages 
 
-Average of Zonal Component - U
-0.0020384418312460184 m/s
 
-Average of Zonal Component without continents
-0.00292445020750165 m/s
+Case 4 : Average of Zonal Component - U:
+0.0023067027796059847 m/s
 
-Average of Meridional Component - V
-0.0006500934832729399 m/s
+Case 4 : Average of Zonal Component without continents:
+0.003309310879558325 m/s
 
-Average of Meridional Component without continents
-0.0009161258931271732 m/s
+Case 4 :Average of Meridional Component - V:
+0.0006740660755895078 m/s
+
+Case 4 : Average of Meridional Component without continents:
+0.0009448013151995838 m/s
