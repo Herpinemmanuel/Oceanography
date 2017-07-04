@@ -1,4 +1,4 @@
-# Case 2 : Second Run
+# Case 2 : Southatlgyre2
 
 In this run we choose :
 
