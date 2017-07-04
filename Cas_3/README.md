@@ -1,4 +1,4 @@
-# Case 3 : 
+# Case 3 : Southatlgyre3 (deleted)
 
 In this run we choose :
 
