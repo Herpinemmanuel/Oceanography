@@ -14,4 +14,4 @@ Documentation : http://mitgcm.org/public/r2_manual/latest/online_documents/node8
 
 -> Creation of 'etan' which is the data of ETA with a gap of time of 2 days
 
--> Scale : 14km between 2 points
+-> Scale : 14km between 2 points of the mesh
