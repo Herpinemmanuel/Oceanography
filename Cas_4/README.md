@@ -10,4 +10,6 @@ Documentation : http://mitgcm.org/public/r2_manual/latest/online_documents/node8
 
 -> Edit advection schema in moment equations : centered differences to a schema which keeps Kinetic energy during more time
 
+-> 90 vertical levels
+
 => restore atmospheric conditions.
