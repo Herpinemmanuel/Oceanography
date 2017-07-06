@@ -22,7 +22,7 @@ while (nt < 1000) :
   # Vertical Sections xz of Salinity
 
   plt.figure(1)
-  ds1['S'][nt,:,100,:].plot.pcolormesh('XC', 'YC', ax=ax,vmin=30,vmax=40,cmap='ocean');
+  ds1['S'][nt,:,100,:].plot.pcolormesh('XC', 'YC',vmin=30,vmax=40,cmap='ocean');
   plt.title('Vertical Section (xz) of Salinity (YC = 30S)')
   plt.text(5,5,nt,ha='center',wrap=True)
   if (nt < 10):
