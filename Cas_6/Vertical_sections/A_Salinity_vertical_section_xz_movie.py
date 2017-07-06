@@ -22,7 +22,7 @@ while (nt < 1000) :
   nt=nt+1
   print(nt)
   
-  # Vertical Sections of Salinity
+  # Vertical Sections xz of Salinity
 
    plt.figure(1)
    ax = plt.subplot(projection=ccrs.PlateCarree());
