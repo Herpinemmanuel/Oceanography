@@ -17,7 +17,7 @@ while (nt < 1000) :
   # Vertical Sections xz of Temperature
   
   plt.figure(1)
-  ds1['T'].where(ds1.hFacC>0)[nt,:,ny,:].plot.pcolormesh('XC','Z',vmin=30,vmax=39)
+  ds1['T'].where(ds1.hFacC>0)[nt,:,ny,:].plot.pcolormesh('XC','Z',vmi=2,vmax=30)
   plt.title('Vertical Section (xz) of Temperature (YC = 30S)')
   plt.text(-60,-4000,nt)
   if (nt < 10):
