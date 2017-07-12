@@ -8,7 +8,7 @@ from xmitgcm import open_mdsdataset
 from matplotlib.mlab import bivariate_normal
 from cartopy.mpl.gridliner import LONGITUDE_FORMATTER, LATITUDE_FORMATTER
 
-dir0 = '/homedata/bderembl/runmit/test_southatlgyre3'
+dir0 = '/homedata/bderembl/runmit/test_southatlgyre6'
 
 ds0 = open_mdsdataset(dir0,iters='all',prefix=['U','V'])
 
