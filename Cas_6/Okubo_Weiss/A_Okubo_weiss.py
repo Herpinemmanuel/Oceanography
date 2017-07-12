@@ -43,7 +43,7 @@ while (i < 1000) :
    print(i)
    plt.figure(1)
    ax = plt.subplot(projection=ccrs.PlateCarree());
-   Okubo_weiss_criterion[i,nz,:,:].plot.pcolormesh('XG','YG',ax=ax,vmin=-1E-10,vmax=1E-10,cmap='seismic')
+   Okubo_weiss_criterion[i,nz,:,:].plot.pcolormesh('XG','YG',ax=ax,vmin=-0.5E-9,vmax=0.5E-9,cmap='seismic')
    plt.title('Case 6 : Okubo Weiss Criterion')
    plt.text(5,5,i,ha='center',wrap=True)
    ax.coastlines()
