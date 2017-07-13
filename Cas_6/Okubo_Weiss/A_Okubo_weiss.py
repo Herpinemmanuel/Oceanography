@@ -16,7 +16,7 @@ grid = xgcm.Grid(ds0)
 print(grid)
 
 # sn² = (du/dx-dv/dy)²
-Sn = (grid.diff(ds0.U.where(ds0.hFacW>0)*ds0.dyG, 'X') + grid.diff(ds0.V.where(ds0.hFacS>0)*ds0.dxG, 'Y'))/ds0.rA
+Sn = (grid.diff(ds0.U.where(ds0.hFacW>0)*ds0.dyG, 'X') - grid.diff(ds0.V.where(ds0.hFacS>0)*ds0.dxG, 'Y'))/ds0.rA
 Sn = grid.interp(Sn ,axis='X')
 Sn = grid.interp(Sn ,axis='Y')
 Sn_carree = Sn**2
