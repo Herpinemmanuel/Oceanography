@@ -1,6 +1,8 @@
+import numpy as np
 import matplotlib.pyplot as plt
 
 from xmitgcm import open_mdsdataset
+plt.ion()
 
 dir1 = '/homedata/bderembl/runmit/test_southatlgyre6'
 
@@ -16,5 +18,4 @@ for ny in range(0,200,40):
         plt.plot(ds1['S'].where(ds1.hFacC>0)[nt,:,ny,nx],ds1['T'].where(ds1.hFacC>0)[nt,:,ny,nx])
 
 plt.title('Diagram T-S')
-plt.show()
 plt.savefig('Diagramme_T_S'+'.png')
